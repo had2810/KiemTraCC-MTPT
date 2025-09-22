@@ -37,18 +37,18 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(93, 48);
+            label1.Location = new Point(58, 51);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(78, 20);
+            label1.Size = new Size(105, 20);
             label1.TabIndex = 0;
-            label1.Text = "UserName";
+            label1.Text = "ten dang nhap";
             label1.Click += label1_Click;
             // 
             // txtUserName
             // 
             txtUserName.Location = new Point(181, 48);
-            txtUserName.Margin = new Padding(2, 2, 2, 2);
+            txtUserName.Margin = new Padding(2);
             txtUserName.Name = "txtUserName";
             txtUserName.Size = new Size(211, 27);
             txtUserName.TabIndex = 1;
@@ -78,7 +78,7 @@
             Controls.Add(label2);
             Controls.Add(txtUserName);
             Controls.Add(label1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
