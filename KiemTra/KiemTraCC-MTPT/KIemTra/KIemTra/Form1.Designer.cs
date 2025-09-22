@@ -38,55 +38,57 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(94, 63);
+            label1.Location = new Point(75, 50);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(128, 25);
+            label1.Size = new Size(105, 20);
             label1.TabIndex = 0;
             label1.Text = "ten dang nhap";
             label1.Click += label1_Click;
             // 
             // txtUserName
             // 
-            txtUserName.Location = new Point(226, 60);
+            txtUserName.AcceptsReturn = true;
+            txtUserName.Location = new Point(181, 48);
             txtUserName.Margin = new Padding(2);
             txtUserName.Name = "txtUserName";
-            txtUserName.Size = new Size(263, 31);
+            txtUserName.Size = new Size(211, 27);
             txtUserName.TabIndex = 1;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(94, 122);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(75, 98);
             label2.Name = "label2";
-            label2.Size = new Size(86, 25);
+            label2.Size = new Size(70, 20);
             label2.TabIndex = 2;
             label2.Text = "mat khau";
             label2.Click += label2_Click;
             // 
             // txtpassword
             // 
-            txtpassword.Location = new Point(226, 122);
-            txtpassword.Margin = new Padding(4);
+            txtpassword.Location = new Point(181, 98);
             txtpassword.Name = "txtpassword";
-            txtpassword.Size = new Size(263, 31);
+            txtpassword.Size = new Size(211, 27);
             txtpassword.TabIndex = 3;
+            txtpassword.TextChanged += txtpassword_TextChanged;
             // 
             // btnlogin
             // 
-            btnlogin.Location = new Point(564, 95);
+            btnlogin.Location = new Point(451, 76);
+            btnlogin.Margin = new Padding(2, 2, 2, 2);
             btnlogin.Name = "btnlogin";
-            btnlogin.Size = new Size(112, 34);
+            btnlogin.Size = new Size(90, 27);
             btnlogin.TabIndex = 4;
             btnlogin.Text = "Dang nhap";
             btnlogin.UseVisualStyleBackColor = true;
+            btnlogin.Click += btnlogin_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(640, 360);
             Controls.Add(btnlogin);
             Controls.Add(txtpassword);
             Controls.Add(label2);
