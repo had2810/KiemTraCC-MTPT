@@ -38,10 +38,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(116, 60);
+            label1.Location = new Point(94, 63);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(94, 25);
+            label1.Size = new Size(128, 25);
             label1.TabIndex = 0;
             label1.Text = "ten dang nhap";
             label1.Click += label1_Click;
@@ -57,18 +57,18 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(116, 122);
+            label2.Location = new Point(94, 122);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(87, 25);
+            label2.Size = new Size(86, 25);
             label2.TabIndex = 2;
-            label2.Text = "Password";
+            label2.Text = "mat khau";
             label2.Click += label2_Click;
             // 
             // txtpassword
             // 
             txtpassword.Location = new Point(226, 122);
-            txtpassword.Margin = new Padding(4, 4, 4, 4);
+            txtpassword.Margin = new Padding(4);
             txtpassword.Name = "txtpassword";
             txtpassword.Size = new Size(263, 31);
             txtpassword.TabIndex = 3;
@@ -79,7 +79,7 @@
             btnlogin.Name = "btnlogin";
             btnlogin.Size = new Size(112, 34);
             btnlogin.TabIndex = 4;
-            btnlogin.Text = "Login";
+            btnlogin.Text = "Dang nhap";
             btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
